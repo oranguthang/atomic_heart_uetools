@@ -9,8 +9,8 @@ Then, you can press `F10` during the game and type commands to the terminal
 
 ## Lists
 
-* [Objects](https://github.com/oranguthang/atomic_heart_uetools.git)
-* [Locations](https://github.com/oranguthang/atomic_heart_uetools.git)
+* [Objects](Objects.md)
+* [Locations](Locations.md)
 
 ## Useful commands
 
