@@ -14,7 +14,7 @@ Please don't forget to put two dots `..` after class path
 
 ### Table of objects:
 
-| Object name/Название объекта |       Class path/Путь к классу       | Comment/Комментарий            |
-|:-----------------------------|:-----------------------------------------------------------------:|:-------------------------------|
-| **Enemies/Враги**            |                                                                   |                                |
-| Ivy/Плющ                     | AtomicHeart/Content/Core/AI/Characters/Plyush/BP_PlychCharacter.. |                                |
+| Object name/Название объекта |                  Class path/Путь к классу                         | Comment/Комментарий         |
+|:-----------------------------|:-----------------------------------------------------------------:|:----------------------------|
+| **Enemies/Враги**            |                                                                   |                             |
+| Ivy/Плющ                     | AtomicHeart/Content/Core/AI/Characters/Plyush/BP_PlychCharacter.. |                             |
