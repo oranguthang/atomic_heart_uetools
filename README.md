@@ -11,6 +11,7 @@ Then, you can press `F10` during the game and type commands to the terminal
 
 * [Objects](Objects.md)
 * [Locations](Locations.md)
+* [Maps](Maps.md)
 
 ## Useful commands
 

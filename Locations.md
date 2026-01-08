@@ -32,6 +32,7 @@ To return to normal mode from flying, use the command:
 | First floor/Первый этаж                                  |  120700 144000 146000  |                                |
 | Last floor/Последний этаж                                |  121000 131000 168000  |                                |
 | Granny Zina's kondor/Кондор Бабы Зины                    |  122000 165000 152500  |                                |
+| Granny Zina's Icarus/Икар Бабы Зины                      |  123150 166000 152300  |                                |
 | **Vavilov/Вавилов**                                      |                        |                                |
 | Outside of entrance/Снаружи от входа                     |  318000 215000 39500   |                                |
 | Entrance after elevator/Вход после лифта                 |  320000 192200 19400   |                                |
