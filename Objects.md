@@ -300,6 +300,10 @@ Please don't forget to put two dots `..` after class path
 | **Quest Objects/Квестовые предметы** |                                                             |                             |
 | Coin/Монета                  | AtomicHeart/Content/Core/Objects/Items/QuestObjects/BP_Pickable_Coin.. |                        |
 | Kuzmich/Кузьмич              | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Kuzmich..     |                            |
+| **Canisters for Lunar Lock/Колбы для Луны** |                                                                |                             |
+| Canister (circle)/Колба (круг) | AtomicHeart/Content/Core/Objects/Interactive/Puzzles/BP_Pickable_Puzzle_Piece.. |            |
+| Canister (Square)/Колба (квадрат | AtomicHeart/Content/Core/Objects/Interactive/Puzzles/BP_Pickable_Puzzle_Piece_Square.. |            |
+| Canister (Triangle)/Колба (треугольник) | AtomicHeart/Content/Core/Objects/Interactive/Puzzles/BP_Pickable_Puzzle_Piece_Triangle.. |            |
 | **DLC1 Enemies/DLC1 Враги**  |                                                                   |                             |
 | Busa Boss/Буса Босс          | AtomicHeart/Content/DLC/Core/AI/Characters/Busa/Boss/BP_Busa_Boss_Character.. |                 |
 | Busa Blue/Буса синяя         | AtomicHeart/Content/DLC/Core/AI/Characters/Busa/BP_Busa_Single_Character_Colored_Blue.. |       |

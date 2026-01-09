@@ -1,2 +1,7 @@
 # IDE
 .idea/
+
+*_test.md
+
+# Asset index cache
+asset_index_cache.json
