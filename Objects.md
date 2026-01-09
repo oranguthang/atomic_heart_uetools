@@ -16,29 +16,94 @@ Please don't forget to put two dots `..` after class path
 
 | Object name/Название объекта |                  Class path/Путь к классу                         | Comment/Комментарий         |
 |:-----------------------------|:-----------------------------------------------------------------:|:----------------------------|
-| **Enemies/Враги**            |                                                                   |                             |
-| Ivy/Плющ                     | AtomicHeart/Content/Core/AI/Characters/Plyush/BP_PlychCharacter.. |                             |
-| Belyash/Белящ                | AtomicHeart/Content/Core/AI/Characters/Belyash/BP_BelyashCharacter.. |                          |
-| Belyash Small/Белящ маленький | AtomicHeart/Content/Core/AI/Characters/Belyash/BP_BelyashSmall_Character.. |                     |
-| Natasha/Наташа               | AtomicHeart/Content/Core/AI/Characters/Natasha/BP_NatashaCharacter.. |                          |
-| Rosa/Роза                    | AtomicHeart/Content/Core/AI/Characters/Rosa/BP_RosaCharacter..    |                             |
-| Twins/Близняшки              | AtomicHeart/Content/Core/AI/Characters/Twins/BP_TwinsCharacter..  | Left twin/Левая близняшка   |
-| Vov/ВОВ                      | AtomicHeart/Content/Core/AI/Characters/Vov/BP_VovCharacter..      |                             |
-| Vov Shield/ВОВ со щитом      | AtomicHeart/Content/Core/AI/Characters/Vov/BP_VovShieldCharacter.. |                            |
-| Vov Fast/ВОВ быстрый         | AtomicHeart/Content/Core/AI/Characters/Vov/BP_VovCharacter_Fast.. |                             |
-| Medic/Медик                  | AtomicHeart/Content/Core/AI/Characters/Medic/BP_MedicCharacter..  |                             |
-| Matka/Матка                  | AtomicHeart/Content/Core/AI/Characters/Matka/BP_MatkaCharacter..  |                             |
-| Mutant/Мутант                | AtomicHeart/Content/Core/AI/Characters/Mutant/BP_MutantCharacter_Base.. |                        |
-| Mutant Big/Большой мутант    | AtomicHeart/Content/Core/AI/Characters/Mutant/MutantBig/BP_MutantBigBasicCharacter.. |           |
-| Ejiha/Ежиха                  | AtomicHeart/Content/Core/AI/Characters/Ejiha/BP_EjihaCharacter..  |                             |
-| Shmel/Шмель                  | AtomicHeart/Content/Core/AI/Characters/Shmel/BP_Base_ShmelCharacter.. |                          |
-| Pobeg/Побег                  | AtomicHeart/Content/Core/AI/Characters/Pobeg/BP_PobegCharacter..  |                             |
-| Chicken/Курица               | AtomicHeart/Content/Core/AI/Characters/Chicken/BP_ChickenCharacter.. |                          |
-| Duck/Утка                    | AtomicHeart/Content/Core/AI/Characters/Chicken/BP_UtkaCharacter.. |                             |
+| **BOSSES/БОССЫ**             |                                                                   |                             |
+| Natasha/Наташа               | /Game/Core/AI/Characters/Natasha/BP_NatashaCharacter..            | Boss                        |
+| Natasha Small/Наташа малая   | /Game/Core/AI/Characters/Natasha/BP_NatashaSmallCharacter..       | Boss variant                |
+| Belyash/Беляш                | /Game/Core/AI/Characters/Belyash/BP_BelyashCharacter..            | Boss                        |
+| Belyash VDNH/Беляш ВДНХ      | /Game/Core/AI/Characters/Belyash/BP_BelyashCharacterVDNH..        | Boss variant                |
+| Belyash Small/Беляш маленький | /Game/Core/AI/Characters/Belyash/BP_BelyashSmall_Character..     | Boss variant                |
+| Ejiha (Hedgie)/Ежиха         | /Game/Core/AI/Characters/Ejiha/BP_EjihaCharacter..                | Boss (buggy)                |
+| Rosa (Dewdrop)/Роза          | /Game/Core/AI/Characters/Rosa/BP_RosaCharacter..                  | Boss                        |
+| Twins/Близняшки              | /Game/Core/AI/Characters/Twins/BP_TwinsCharacter..                | Boss (buggy)                |
+| Twins First Fight/Близняшки 1 бой | /Game/Core/AI/Characters/Twins/BP_TwinsCharacter_FirstFight.. | Boss variant                |
+| Twins Second Fight/Близняшки 2 бой | /Game/Core/AI/Characters/Twins/BP_TwinsCharacter_SecondFight.. | Boss variant             |
+| Twins Left/Близняшка левая   | /Game/Core/AI/Characters/Twins/BP_TwinsCharacter_Left..           | Boss variant                |
+| Twins Right/Близняшка правая | /Game/Core/AI/Characters/Twins/BP_TwinsCharacter_Right..          | Boss variant                |
+| Busa Boss (Colossus BEA-D)/Буса Босс | /Game/DLC/Core/AI/Characters/Busa/Boss/BP_Busa_Boss_Character.. | Boss DLC#1          |
+| **ENEMIES/ВРАГИ**            |                                                                   |                             |
+| Plyusch (Ivy)/Плющ           | /Game/Core/AI/Characters/Plyush/BP_PlychCharacter..               |                             |
+| Plyusch Symbiosis/Плющ симбиоз | /Game/Core/AI/Characters/Plyush/BP_PlychCharacterSymbiosis..    | Variant                     |
+| Vov (VOV-A6)/ВОВ             | /Game/Core/AI/Characters/Vov/BP_VovCharacter..                    | Lab Tech                    |
+| Vov Shield/ВОВ со щитом      | /Game/Core/AI/Characters/Vov/BP_VovShieldCharacter..              |                             |
+| Vov Fast (Black)/ВОВ быстрый | /Game/Core/AI/Characters/Vov/BP_VovCharacter_Fast..              |                             |
+| Vov Black Burned/ВОВ сгоревший | /Game/Core/AI/Characters/Vov/BP_VovBlackBurned_Cutscene..       | Cutscene                    |
+| Vov Simple/ВОВ простой       | /Game/Core/AI/Characters/Vov/BP_VovCharacter_Simple..             | Test variant                |
+| Medic (MED-9)/Медик          | /Game/Core/AI/Characters/Medic/BP_MedicCharacter..                |                             |
+| Raf (RAF-9 Engineer)/Раф     | /Game/Core/AI/Characters/Raf/BP_RafCharacter..                    | Engineer                    |
+| Raf Treadmill/Раф на дорожке | /Game/Core/AI/Characters/Raf/BP_RafCharacter_Treadmill..          | Variant                     |
+| Raf Waiter/Раф официант      | /Game/Core/AI/Characters/Raf/BP_RafCharacter_Waiter..             | Variant                     |
+| Matka (Mother)/Матка         | /Game/Core/AI/Characters/Matka/BP_MatkaCharacter..                |                             |
+| Mutant/Мутант                | /Game/Core/AI/Characters/Mutant/BP_MutantCharacter..              |                             |
+| Mutant Base/Мутант базовый   | /Game/Core/AI/Characters/Mutant/BP_MutantCharacter_Base..         |                             |
+| Mutant Base Child/Мутант маленький | /Game/Core/AI/Characters/Mutant/BP_MutantCharacter_Base_Child.. |                           |
+| Mutant Acid/Мутант кислотный | /Game/Core/AI/Characters/Mutant/BP_MutantCharacter_Acid..         |                             |
+| Mutant Soldier/Мутант солдат | /Game/Core/AI/Characters/Mutant/BP_MutantSoldierCharacter..       |                             |
+| Mutant Nurse/Мутант медсестра | /Game/Core/AI/Characters/Mutant/BP_MutantNurseCharacter..        |                             |
+| Mutant Big Basic/Большой мутант | /Game/Core/AI/Characters/Mutant/MutantBig/BP_MutantBigBasicCharacter.. |                     |
+| Mutant Big Acid/Большой кислотный | /Game/Core/AI/Characters/Mutant/MutantBig/BP_MutantBigAcidCharacter.. |                    |
+| Mutant Big Fire/Большой огненный | /Game/Core/AI/Characters/Mutant/MutantBig/BP_MutantBigFireCharacter.. |                     |
+| Pchela (WSP-9)/Пчела         | /Game/Core/AI/Characters/Bee/BP_PchelaCharacter..                 |                             |
+| Pchela Camera/Пчела камера   | /Game/Core/AI/Characters/Bee/CameraBee/BP_CameraPchela..          |                             |
+| Pchela Patrolling Camera/Пчела патруль | /Game/Core/AI/Characters/Bee/CameraBee/BP_PatrollingCameraPchela.. |                  |
+| Pchela Laser/Пчела лазер     | /Game/Core/AI/Characters/Bee/LaserPchela/BP_LaserPchelaCharacter.. |                           |
+| Pchela Smoke/Пчела дым       | /Game/Core/AI/Characters/Bee/SmokePchela/BP_SmokePchelaCharacter.. |                           |
+| Drofa/Дрофа                  | /Game/Core/AI/Characters/Drofa/BP_DrofaCharacter..                |                             |
+| Drofa Child Flying/Дрофа маленький летающий | /Game/Core/AI/Characters/Drofa/BP_DrofaCharacter_Child_Flying.. |                   |
+| Drofa Child Static/Дрофа маленький статичный | /Game/Core/AI/Characters/Drofa/BP_DrofaCharacter_Child_Static.. |                  |
+| Drofa Telekinetic/Дрофа телекинетик | /Game/Core/AI/Characters/Drofa/BP_Drofa_Telekinetic..        |                             |
+| Sipuha/Сипуха                | /Game/Core/AI/Characters/Sipuha/BP_SipuhaCharacter..              |                             |
+| Sipuha Child/Сипуха маленький  | /Game/Core/AI/Characters/Sipuha/BP_SipuhaCharacter_Child..        |                             |
+| Sipuha Holo/Сипуха голограмма | /Game/Core/AI/Characters/Sipuha/BP_SipuhaCharacter_Holo..        |                             |
+| Sipuha Rocket/Сипуха ракета  | /Game/Core/AI/Characters/Sipuha/BP_SipuhaRocketCharacter..        |                             |
+| Sipuha Laser/Сипуха лазер    | /Game/Core/AI/Characters/Sipuha/BP_SipuhaLaserCharacter..         |                             |
+| Shmel/Шмель                  | /Game/Core/AI/Characters/Shmel/BP_Base_ShmelCharacter..           |                             |
+| Pobeg (Sprout)/Побег         | /Game/Core/AI/Characters/Pobeg/BP_PobegCharacter..                |                             |
+| Pobeg for Matka/Побег для Матки | /Game/Core/AI/Characters/Pobeg/BP_PobegCharacterForMatkaSpawn.. |                           |
+| Pobeg for Matka Fast/Побег быстрый | /Game/Core/AI/Characters/Pobeg/BP_PobegCharacterForMatkaSpawnfast.. |                     |
+| Pobeg Big/Побег большой      | /Game/Core/AI/Characters/Pobeg/BP_PobegBigCharacter..             |                             |
+| Pobeg Big for Matka/Побег большой для Матки | /Game/Core/AI/Characters/Pobeg/BP_PobegBigCharacterForMatka.. |                    |
+| RotoRobot (ARU-31/6)/Роторобот | /Game/Core/AI/Characters/RotoRobot/BP_RotoRobotCharacter..      |                             |
+| Chicken/Курица               | /Game/Core/AI/Characters/Chicken/BP_ChickenCharacter..            | Livestock                   |
+| Utka (Duck)/Утка             | /Game/Core/AI/Characters/Chicken/BP_UtkaCharacter..               | Livestock                   |
+| Dandelion Camera/Одуванчик   | /Game/Core/AI/Characters/Camera/BP_CCTV_Camera..                  | Security Camera             |
+| Dandelion OpenWorld/Одуванчик ОМ | /Game/Core/AI/Characters/Camera/BP_CCTV_Camera_OpenWorld..    | Security Camera             |
+| Vatrushka Turret/Ватрушка    | /Game/Core/AI/Characters/Vatrushka_Turret/BP_VatrushkaTurretCharacter.. | Turret                |
+| Vatrushka Flamethrower/Ватрушка огнемёт | /Game/Core/AI/Characters/Vatrushka_Turret/BP_VatrushkaTurretCharacter_Flamethrower.. | |
+| Vatrushka Laser/Ватрушка лазер | /Game/Core/AI/Characters/Vatrushka_Turret/BP_VatrushkaTurretCharacter_Laser.. |              |
+| Turret/Турель                | /Game/Core/AI/Characters/Turret/BP_Turret..                       |                             |
+| Turret White/Турель белая    | /Game/Core/AI/Characters/Turret/BP_Turret_White..                 |                             |
+| **DLC1 Enemies/DLC1 Враги**  |                                                                   |                             |
+| Goose/Гусь                   | /Game/DLC/Core/AI/Characters/GOOSE/BP_Goose_Character..           | DLC #1                      |
+| Maniken (M4D-5 Dummy)/Манекен | /Game/DLC/Core/AI/Characters/Maniken/BP_ManikenCharacter..      | DLC #1                      |
+| Busa Single (BEA-D)/Буса     | /Game/DLC/Core/AI/Characters/Busa/BP_Busa_Single_Character..      | DLC #1                      |
+| Busa Blue/Буса синяя         | /Game/DLC/Core/AI/Characters/Busa/BP_Busa_Single_Character_Colored_Blue.. | DLC #1             |
+| Busa Dog (BEA-D Duo)/Буса пёс | /Game/DLC/Core/AI/Characters/Busa/BP_Busa_Dog_Character..       | DLC #1                      |
+| Busa Centaur (BEA-D Trio)/Буса Кентавр | /Game/DLC/Core/AI/Characters/Busa/BP_Busa_Centaur_Character.. | DLC #1                  |
 | **NPC/НПЦ**                  |                                                                   |                             |
-| Farcovshik/Фарцовщик         | AtomicHeart/Content/Core/AI/Characters/Farcovshik/BP_NPC_Farcovshik.. |                          |
+| Human NPC/Человек            | /Game/Core/AI/Characters/Human/BP_NPCHuman..                      |                             |
+| Human Female 02/Женщина 02   | /Game/Core/AI/Characters/Human/BP_NPCHuman_Female02..             |                             |
+| Human Male 01/Мужчина 01     | /Game/Core/AI/Characters/Human/BP_NPCHuman_Male01..               |                             |
+| Larisa/Лариса                | /Game/Core/AI/Characters/Larisa/BP_NPC_Larisa..                   |                             |
+| Lebedev/Лебедев              | /Game/DLC/Core/AI/Characters/Lebedev/BP_LebedevNPCCharacter..     | DLC                         |
+| Tereshkova Robot/Терешкова   | /Game/Core/AI/Characters/Tereshkova/BP_NPC_TereshkovaRobot..      |                             |
+| Tereshkova Clara/Терешкова Клара | /Game/Core/AI/Characters/Tereshkova/BP_NPC_TereshkovaRobot_Clara.. |                         |
+| NPC Vov/НПЦ ВОВ              | /Game/Core/AI/Characters/Vov/BP_NPCVov1..                         |                             |
+| Test Target Enemy/Тест мишень | /Game/Core/AI/Characters/Test/BP_TestTargetEnemy..               | Test                        |
+| Farcovshik/Фарцовщик         | /Game/Core/AI/Characters/Farcovshik/BP_NPC_Farcovshik..           |                             |
 | **Animals/Животные**         |                                                                   |                             |
-| Pig/Свинья                   | AtomicHeart/Content/Core/AI/Animals/Pig/BP_PigCageAnimalCharacter.. |                           |
+| Pig/Свинья                   | /Game/Core/AI/Animals/Pig/BP_PigAnimalCharacter..                 | Livestock                   |
+| Pig Cage/Свинья в клетке     | /Game/Core/AI/Animals/Pig/BP_PigCageAnimalCharacter..             | Livestock                   |
+| Cow/Корова                   | /Game/Core/AI/Animals/Cow/BP_CowAnimalCharacter..                 | Livestock                   |
 | **Melee Weapons/Оружие ближнего боя** |                                                         |                             |
 | Axe/Топор                    | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Axe..        |                             |
 | Bober/Бобёр                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Bober..      |                             |
@@ -252,3 +317,11 @@ Please don't forget to put two dots `..` after class path
 | Vov Pryanik Slow/ВОВ Пряник медленный | AtomicHeart/Content/DLC2/Development/NPC/BP_VovCharacter_PryanikSlow.. |               |
 | Vov Translocator/ВОВ Транслокатор | AtomicHeart/Content/DLC2/Development/NPC/BP_VovCharacter_Translocator.. |                |
 | Goose Limbo/Гусь Лимбо       | AtomicHeart/Content/DLC2/Development/NPC/Gooses/BP_Goose_Character_Limbo.. |                    |
+| **DLC3 Collectibles/DLC3 Коллекционные предметы** |                                                   | DLC #3                      |
+| Dolphin Football/Дельфин футболист | AtomicHeart/Content/DLC3/Development/Blueprints/Blueprint_Objects/PickableMaskot/BP_Pickble_Dolphin_Mascot_Dolphin_FootBall.. | |
+| Dolphin Police/Дельфин полицейский | AtomicHeart/Content/DLC3/Development/Blueprints/Blueprint_Objects/PickableMaskot/BP_Pickble_Dolphin_Mascot_Dolphin_Police.. | |
+| Dolphin Doctor/Дельфин доктор | AtomicHeart/Content/DLC3/Development/Blueprints/Blueprint_Objects/PickableMaskot/BP_Pickupable_Dolphin_Doctor.. | |
+| Dolphin Panama/Дельфин в панаме | AtomicHeart/Content/DLC3/Development/Blueprints/Blueprint_Objects/PickableMaskot/BP_Pickble_Dolphin_Mascot_Dolphin_Panama.. | |
+| Dolphin Common/Дельфин обычный | AtomicHeart/Content/DLC3/Development/Blueprints/Blueprint_Objects/PickableMaskot/BP_Pickble_Dolphin_Mascot.. | |
+| **Environmental Objects/Объекты окружения** |                                                        |                             |
+| Power Plant Child/Электростанция | /Game/Core/AI/Characters/PowerPlant/BP_PowerPlant_Child..   | Environmental               |
