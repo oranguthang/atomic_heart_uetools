@@ -39,21 +39,50 @@ Please don't forget to put two dots `..` after class path
 | Farcovshik/Фарцовщик         | AtomicHeart/Content/Core/AI/Characters/Farcovshik/BP_NPC_Farcovshik.. |                          |
 | **Animals/Животные**         |                                                                   |                             |
 | Pig/Свинья                   | AtomicHeart/Content/Core/AI/Animals/Pig/BP_PigCageAnimalCharacter.. |                           |
-| **Weapons/Оружие**           |                                                                   |                             |
-| Zvezdochka/Звёздочка         | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Zvezdochka.. |                             |
-| Electro/Электро              | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Electro..    |                             |
-| Krepysh/Крепыш               | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Krepysh..    |                             |
-| Dominator/Доминатор          | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Dominator..  |                             |
-| KS-23/КС-23                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_ShotgunKS23.. |                            |
-| Snejok/Снежок                | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Snejok..     |                             |
-| Shved/Швед                   | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Shved..      |                             |
-| PM/ПМ                        | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_PM..         |                             |
-| Lisa/Лиса                    | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Lisa..       |                             |
-| AK-47/АК-47                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_AK47_MagazineAttached.. |                  |
+| **Melee Weapons/Оружие ближнего боя** |                                                         |                             |
+| Axe/Топор                    | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Axe..        |                             |
+| Bober/Бобёр                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Bober..      |                             |
+| Hipar/Хипар                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Hipar..      |                             |
+| Hirurg/Хирург                | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Hirurg..     |                             |
+| Karusel/Карусель             | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Hirurg..     | Path might be incorrect     |
+| Kilka/Килька                 | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Kilka..      |                             |
+| Klusha/Клуша                 | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Petuh..      | DLC #1                      |
+| Lapta/Лапта                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Lapta..      |                             |
+| Lisa/Лиса (Fox)              | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Lisa..       |                             |
+| Lumberjack/Лесоруб           | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Binoculars.. |                             |
+| Neptune/Нептун               | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Neptun..     |                             |
 | Pashtet/Паштет               | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Pashtet..    |                             |
-| Railgun/Рельсотрон           | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Railgun..    |                             |
-| Bidonist/Бидонист            | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Bidonist..   |                             |
+| Petuh/Петух                  | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Petuh..      |                             |
+| Sguschenka/Сгущёнка          | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Sguschenka.. |                             |
+| Shved/Швед (Swede)           | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Shved..      |                             |
+| Snejok/Снежок (Snowball)     | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Snejok..     |                             |
+| Thunderclap/Громовержец      | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Gromoverzhec.. | DLC #3                   |
+| Zvezdochka/Звёздочка         | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Zvezdochka.. | DLC #1                      |
+| **Range Weapons/Дальнобойное оружие** |                                                         |                             |
+| AK-47/АК-47 (Kalash)         | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_AK47_MagazineAttached.. |                  |
+| Bidonist/Бидонист            | AtomicHeart/Content/Core/Objects/Items/BP_Pickable_Ammo_Cigarets.. |                           |
 | Carbine/Карабин              | AtomicHeart/Content/Core/Objects/Items/BP_Pickable_Carbine..      |                             |
+| Debug Gun/Отладочный пистолет | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_DebugGun..  | Debug/Test only             |
+| Dominator/Доминатор          | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Dominator..  |                             |
+| Electro/Электро (Energy Pistol) | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Electro.. |                             |
+| Krepysh/Крепыш (Fat Boy/Rocket Launcher) | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Krepysh.. |               |
+| KS-23/КС-23 (Shotgun)        | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_ShotgunKS23.. |                            |
+| Kuzmich/Кузьмич (Auto Shotgun) | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Kuzmich.. | DLC #3                      |
+| Plasma Gun/Плазменный пистолет | /Game/DLC/Core/Weapons/Range/Plasmagun/BP_Pickupable_Plasmagun.. | DLC #1                   |
+| PM/ПМ (Pistol)               | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_PM..         |                             |
+| Railgun/Рельсотрон           | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Railgun..    |                             |
+| **Ammo/Патроны**             |                                                                   |                             |
+| Pistol Ammo Single/Одиночный патрон ПМ | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_PM_Ammo_Single.. | x1 cartridge          |
+| Pistol Ammo Box/Коробка патронов ПМ | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_PM_Ammo_Box.. | x9 cartridges            |
+| Shotgun Ammo Single/Одиночный патрон дробовик | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Shotgun_Ammo_single.. | x1 shell |
+| Shotgun Ammo Magazine/Магазин дробовик | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Shotgun_Ammo_Magazine.. | x5 shells      |
+| AK-47 Ammo Magazine/Магазин АК-47 | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_AK47_Ammo_Magazine.. | x30 cartridges       |
+| Rocket Ammo Single/Одиночная ракета | AtomicHeart/Content/Core/Objects/Items/BP_Pickupable_Krepysh_Ammo_Single.. | x1 rocket         |
+| Plasma Gun Ammo/Патроны плазмаган | /Game/DLC/Core/Weapons/Range/Plasmagun/BP_Pickupable_Plasmagun_Ammo.. | DLC #1              |
+| **Cassette Modules/Кассетные модули** |                                                        |                             |
+| Cassette Electric/Электро кассета | AtomicHeart/Content/Core/Objects/Items/Cassettes/BP_Pickable_CassetteElectricity.. |          |
+| Cassette Fire/Огненная кассета | AtomicHeart/Content/Core/Objects/Items/Cassettes/BP_Pickable_Cassette_Fire.. |                 |
+| Cassette Frost/Морозная кассета | AtomicHeart/Content/Core/Objects/Items/Cassettes/BP_Pickable_Cassette_Frost.. |               |
 | **Resources/Ресурсы**        |                                                                   |                             |
 | Metal Parts/Металлические детали | AtomicHeart/Content/Core/Objects/Items/Resourses/Common_Resources/BP_Pickupable_Metal_Parts.. | Common/Обычный |
 | Synthetic Material/Синтетический материал | AtomicHeart/Content/Core/Objects/Items/Resourses/Common_Resources/BP_Pickable_Synthetic_Material_Resource.. | Common/Обычный |
@@ -64,10 +93,15 @@ Please don't forget to put two dots `..` after class path
 | Microelectronics/Микроэлектроника | AtomicHeart/Content/Core/Objects/Items/Resourses/Rare_Resources/BP_Pickupable_Resource_Microelectronics.. | Rare/Редкий |
 | Neural Module/Нейромодуль    | AtomicHeart/Content/Core/Objects/Items/Resourses/Legendary_Resources/BP_Pickupable_NeuralModule.. | Legendary/Легендарный |
 | **Consumables/Расходники**   |                                                                   |                             |
-| Capsule Jelly/Желе в капсуле | AtomicHeart/Content/Core/Objects/Items/BP_Pickable_CapsuleJelly.. |                             |
-| Vodka/Водка                  | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_vodka.. |               |
+| Adrenalin/Адреналин          | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_adrenalin.. |          |
 | Aid Big/Большая аптечка      | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_consumable_aid_big.. |  |
+| Aid Medium/Средняя аптечка   | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_consumable_aid_big.. | Uses same path  |
+| Capsule Jelly/Желе в капсуле | AtomicHeart/Content/Core/Objects/Items/BP_Pickable_CapsuleJelly.. |                             |
 | Cigarettes/Сигареты          | AtomicHeart/Content/Core/Objects/Items/BP_Pickable_Cigarettes..   |                             |
+| Energetic/Энергетик (Dynamo) | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_energetic.. |          |
+| Meldonium/Мельдоний          | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_meldonium.. |          |
+| Sguschenka/Сгущёнка          | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_sguschenka.. |         |
+| Vodka/Водка                  | AtomicHeart/Content/Core/Objects/Items/Consumables/Pickable/BP_Pickable_vodka.. |               |
 | **Weapon Recipes/Рецепты оружия** |                                                              |                             |
 | AK-47 Recipe/Рецепт АК-47    | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_Ak47_Recipe.. |                 |
 | PM Recipe/Рецепт ПМ          | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_PM_Recipe.. |                   |
@@ -87,6 +121,7 @@ Please don't forget to put two dots `..` after class path
 | KS-23 Recipe/Рецепт КС-23    | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_KS23_Recipe.. |                 |
 | Machinegun Ammo Recipe/Рецепт патронов пулемёта | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_MachinegunAmmo_Recipe.. | |
 | Neptun Recipe/Рецепт Нептун  | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_Neptun_Recipe.. |               |
+| Plasma Gun Recipe/Рецепт Плазмаган | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_Plasmagun_Recipe.. | DLC #1      |
 | Shotgun Recipe/Рецепт Дробовик | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_Shotgun_Recipe.. |            |
 | Small Aid Recipe/Рецепт малой аптечки | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_SmallAid_Recipe.. |    |
 | **Cassette Recipes/Рецепты кассет** |                                                              |                             |
@@ -102,6 +137,7 @@ Please don't forget to put two dots `..` after class path
 | **Ammo Recipes/Рецепты патронов** |                                                               |                             |
 | AK-47 Ammo/Патроны АК-47     | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_AK47Ammo_Recipe.. |             |
 | Pistol Ammo/Пистолетные патроны | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_PistolAmmo_Recipe.. |         |
+| Plasma Gun Ammo/Патроны плазмагана | /Game/DLC/Core/Weapons/Range/Plasmagun/DA_Item_PlasmagunAmmo_Recipe.. | DLC #1              |
 | Rocket Ammo/Ракетные снаряды | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_RocketAmmo_Recipe.. |           |
 | Shotgun Ammo/Дробь           | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/BP_Pickable_ShotgunAmmo_Recipe.. |          |
 | **AK-47 Upgrades/Улучшения АК-47** |                                                             |                             |
@@ -172,6 +208,25 @@ Please don't forget to put two dots `..` after class path
 | Zvezdochka ExtraSaw/Звёздочка Доп. пила | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Zvezdochka/BP_Pickable_Zvezdochka_ExtraSaw_Recipe.. | |
 | Zvezdochka Handle/Звёздочка Рукоятка | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Zvezdochka/BP_Pickable_Zvezdochka_Handle_Recipe.. | |
 | Zvezdochka SawsAttack/Звёздочка Атака пилами | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Zvezdochka/BP_Pickable_Zvezdochka_SawsAttack_Recipe.. | |
+| **Lapta Upgrades/Улучшения Лапты** |                                                                 |                             |
+| Lapta Blade/Лапта Лезвие     | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Lapta/BP_Pickable_Lapta_Blade_Recipe.. |  |
+| Lapta Cassette/Лапта Кассета | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Lapta/BP_Pickable_Lapta_Casette_Recipe.. | |
+| Lapta Handle/Лапта Рукоятка  | AtomicHeart/Content/Core/Objects/Items/RecipesTubus/Upgrades/Lapta/BP_Pickable_Lapta_Handle_Recipe.. | |
+| **Klusha Upgrades/Улучшения Клуши** |                                                               | DLC #1                      |
+| Klusha Blade/Клуша Лезвие   | AtomicHeart/Content/DLC/Core/Weapons/Melee/Klusha/Upgrades/BP_Pickable_Klusha_UpgradeBlades_Recipe.. | |
+| Klusha Cassette/Клуша Кассета | AtomicHeart/Content/DLC/Core/Weapons/Melee/Klusha/Upgrades/BP_Pickable_Klusha_UpgradeCasette_Recipe.. | |
+| Klusha Handle/Клуша Рукоятка | AtomicHeart/Content/DLC/Core/Weapons/Melee/Klusha/Upgrades/BP_Pickable_Klusha_UpgradeHandle_Recipe.. | |
+| **Thunderclap Upgrades/Улучшения Громовержца** |                                                    | DLC #3                      |
+| Thunderclap Handle/Громовержец Рукоятка | AtomicHeart/Content/DLC3/Core/Weapons/Melee/Gromoverzec/Upgrades_Grom/BP_Pickable_Gromoverzhec_UpgradeHandle_Recipe.. | |
+| Thunderclap Head/Громовержец Голова | AtomicHeart/Content/DLC3/Core/Weapons/Melee/Gromoverzec/Upgrades_Grom/BP_Pickable_Gromoverzhec_UpgradeHead_Recipe.. | |
+| **Plasma Gun Upgrades/Улучшения Плазмагана** |                                                    | DLC #1                      |
+| Plasma Gun Barrel/Плазмаган Ствол | AtomicHeart/Content/DLC/Core/Weapons/Range/Plasmagun/Upgrades/BP_Pickable_Plasmagun_UpgradedBarrel_Recipe.. | |
+| Plasma Gun Magnets/Плазмаган Магниты | AtomicHeart/Content/DLC/Core/Weapons/Range/Plasmagun/Upgrades/BP_Pickable_Plasmagun_UpgradeIncreaseWaveSpeed_Recipe.. | |
+| **Kuzmich Upgrades/Улучшения Кузьмича** |                                                         | DLC #3                      |
+| Kuzmich Barrel Plane/Кузьмич Ствол плоский | AtomicHeart/Content/DLC3/Core/Weapons/Range/Kuzmich/Upgrades_Kuzm/BP_Pickable_Kuzmich_UpgradedPlaneBarrel_Recipe.. | |
+| Kuzmich Barrel Plug/Кузьмич Ствол пробка | AtomicHeart/Content/DLC3/Core/Weapons/Range/Kuzmich/Upgrades_Kuzm/BP_Pickable_Kuzmich_UpgradedSlugBarrel_Recipe.. | |
+| Kuzmich Magazine/Кузьмич Магазин | AtomicHeart/Content/DLC3/Core/Weapons/Range/Kuzmich/Upgrades_Kuzm/BP_Pickable_Kuzmich_UpgradeMagazine_Recipe.. | |
+| Kuzmich Stock/Кузьмич Приклад | AtomicHeart/Content/DLC3/Core/Weapons/Range/Kuzmich/Upgrades_Kuzm/BP_Pickable_Kuzmich_UpgradeStock_Recipe.. | |
 | **Interactive Objects/Интерактивные объекты** |                                                   |                             |
 | Craft Machine/Станок крафта  | AtomicHeart/Content/Core/Objects/Interactive/CraftMachine/BP_Base_CraftMachine.. |              |
 | Craft Machine Camera/Станок крафта с камерой | AtomicHeart/Content/Core/Objects/Interactive/CraftMachine/BP_CraftMachine_AdditionalCamera.. | |
